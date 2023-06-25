@@ -1,0 +1,14 @@
+@use "./_board.scss";
+@use "./_game.scss";
+@use "./_square.scss";
+@use "./variables";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+body {
+    scroll-behavior: smooth;
+}

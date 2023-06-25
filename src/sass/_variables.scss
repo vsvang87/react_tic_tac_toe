@@ -1,0 +1,10 @@
+$blue: rgb(133, 166, 209);
+$green: rgb(56, 109, 56);
+
+
+
+@mixin flexSpaceBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
